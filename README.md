@@ -1,13 +1,13 @@
-# <Michael Rogers Professional Portfolio>
+# Michael Rogers Professional Portfolio
 ## Description
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 This project is a responsive profile website using semantic HTML and CSS. It was motivating to put my newley aquired knowledge to the test, and have an opportunity to create something original. The purpose behind this project, it's design and content was to have a place to showcase my ability and projects. This ultimately solves the problem of not having a way to show my work to prospective employers. During this project I learned A LOT. Starting with color palletes and design layout, to wire framing a mock up of my project. Additionally I learned how to use CSS properties to properly position elements on my portfolio page. Additionally, I learned how to troubleshoot errors that were discovered after I deployed my project. I found an issue with the portfolio not scaling well all the way down to a screen size below 450px. I used media queries, and a little trial and error to discover that width and margins on some elements were creating a side scrolling anti-pattern. I resolved this issue by adjusting the aforementioned, pushing changes to git hub, then reloading the site. Everything functions as it should now.
 
 ## Usage
 The layout of the website was designed to be clean and minimalist in nature. To use the website, you can use the links located in the top right to navigate to sections of interest. Optionally, you can scroll down to see sections listed in the header. In the projects section, there are links for 3 projects. Only project labeled Horiseon refactor will re-direct to my original work. Projects labeled project2, project3, will re-direct only to google for and will be updated as more projects are created. Hovering over a project image will reveal a preview of the project. Clicking on the projec
-    ```md
-    ![Project Preview Image](https://github.com/mrogers23458/mrogers-profile/blob/master/assets/readmess.jpg)
-    ```
+    
+[Project Preview Image](https://github.com/mrogers23458/mrogers-profile/blob/master/assets/readmess.jpg)
+
 ## Credits
 I found the tutorial by Wes Bos incredibly helpful when it came to working with Flexboxes
 (https://flexbox.io/)
