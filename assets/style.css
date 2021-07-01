@@ -1,0 +1,350 @@
+:root {
+
+    --dark: #13203d;
+    --light: #ffffff;
+    --accent: #fcdd58;
+}
+
+/* header and main navigation */
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid var(--dark);
+    background: var(--light);
+    z-index: 2;
+    
+}
+
+header h1 {
+    
+    width: 33.3333%;
+    padding-left: 1%;
+    color: var(--dark);
+    font-family:'Bebas Neue', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    padding-right: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+nav a {
+    padding: 10px;
+    color: var(--dark);
+    font-size: 2vh;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: var(--accent);
+}
+
+/* wrap covering whole page */
+
+.main-wrapper {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+    width: 100%;
+
+}
+
+/* all landing content */
+
+.landing-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    width: 100%;
+
+}
+
+.landing-wrapper-content {
+    width: 60vh;
+    height: 60vh;
+    background-image: url(../assets/profilepic.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: -20px 20px var(--dark);
+    margin-bottom: 7%;
+
+
+}
+
+.landing-wrapper-content h2 {
+    width: 45%;
+    margin-left: 85%;
+    margin-top: 35%;
+    font-size: 5vh;
+    padding: 7%;
+    color: var(--light);
+    background: var(--dark);
+    font-family: 'Bebas Neue', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.landing-wrapper-content p {
+    margin-left: 110%;
+    width: 50%;
+    font-size: 3vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* about  me section, and section headings */
+
+.about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--light);
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 60%;
+}
+
+h3 {
+    text-align: center;
+    width: 100%;
+    font-size: 7vh;
+    margin-bottom: 5px;
+    font-family: 'Bebas Neue', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+    color: var(--accent);
+    padding-top: 3%;
+
+}
+
+.about-wrapper p {
+    width: 50%;
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 5%;
+    border-bottom: 2px solid var(--dark);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.pcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-top: 7%;
+    margin-bottom: 20%;
+}
+
+.projects-wrapper-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.multiproject-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 16%;
+    width: 33%;
+}
+
+h4 {
+    position: relative;
+    top: 70%;
+    color: var(--light);
+    font-size: 3vh;
+    padding-left: 3%;
+}
+
+h5 {
+    position: relative;
+    color: var(--light);
+    font-size: 3vh;
+    text-decoration: none;
+    padding-left: 3%;
+    
+
+}
+
+div[class*='overlay'] h5 {
+    top: 35%;
+}
+
+
+
+.project1 {
+    position: relative;
+    width: 33%;
+    margin-left: 16%;
+    height: 40vh;
+    background-image: url(./HoriseonRefactor.jpg);
+    background-size: cover;
+    box-shadow: 5px 5px 10px black;
+
+  
+}
+
+.project2 {
+    position: relative;
+    width: 100%;
+    margin-left: 3.25%;
+    background-image: url(../assets/Project2Holder.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+.project3 {
+    position: relative;
+    margin-left: 3.25%;
+    background-image: url(../assets/project3holder.jpg);
+    background-position: cover;
+    width: 100%;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+.overlay {
+    position: absolute;
+    background: var(--dark);
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 2s;
+
+}
+
+.overlay2 {
+    position: absolute;
+    background: #bbbcbb;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.overlay3 {
+    position: absolute;
+    background: var(--accent);
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+
+div[class*='overlay']:hover {
+    opacity: 0;
+}
+
+
+#contactme {
+    margin-bottom: 100px;
+}
+
+footer {
+
+    background: var(--light);
+
+}
+
+.thinkbox {
+    margin-left: 80%;
+    border: 2px solid var(--dark);
+    width: 115px;
+    margin-bottom: 50px;
+}
+
+.thinkbox p {
+    margin-left: 71px;
+    width: 300px;
+    font-size: 2.5vh;
+    font-family: 'Bebas Neue', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 5px;
+}
+
+
+@media screen and (max-width: 700px) {
+    header {
+       
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .landing-wrapper-content h2 {
+        display: none;
+    }
+    .landing-wrapper-content p {
+        margin-left: 50px;
+        margin-top: -6%;
+        width: 100%;
+        font-size: 2vh;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .landing-wrapper-content {
+        width: 100%;
+        height: 50vh;
+        background-image: url(../assets/profilepic.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        box-shadow: -20px 20px var(--dark);
+        margin-top: 30%;
+        margin-bottom: 15%;
+    }
+
+    .about-wrapper p {
+        width: 100%;
+        font-size: 1.5vh;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .thinkbox {
+        margin-left: 0%;
+        border: 2px solid var(--dark);
+        width: 110px;
+        margin-bottom: 50px;
+    }
+    
+    .thinkbox p {
+        margin-left: 71px;
+        width: 300px;
+        font-size: 2.5vh;
+        font-family: 'Bebas Neue', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        word-spacing: 5px;
+    }
+
+}
