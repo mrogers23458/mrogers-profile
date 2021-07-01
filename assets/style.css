@@ -275,7 +275,7 @@ footer {
 }
 
 .thinkbox {
-    margin-left: 80%;
+    margin-left: 100px;
     border: 2px solid var(--dark);
     width: 115px;
     margin-bottom: 50px;
