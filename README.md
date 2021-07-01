@@ -5,7 +5,7 @@ This project is a responsive profile website using semantic HTML and CSS. It was
 ## Usage
 The layout of the website was designed to be clean and minimalist in nature. To use the website, you can use the links located in the top right to navigate to sections of interest. Optionally, you can scroll down to see sections listed in the header. In the projects section, there are links for 3 projects. Only project labeled Horiseon refactor will re-direct to my original work. Projects labeled project2, project3, will re-direct only to google for and will be updated as more projects are created. Hovering over a project image will reveal a preview of the project. Clicking on the projec
     
-[Project Preview Image](https://github.com/mrogers23458/mrogers-profile/blob/master/assets/readmess.jpg)
+![Project Preview Image](https://github.com/mrogers23458/mrogers-profile/blob/master/assets/readmess.jpg)
 [Deployed Project Available here](https://mrogers23458.github.io/mrogers-profile/?fbclid=IwAR2S3LSXTXLkOr0iLvMZFf2dA08FtBiOYkXQd-ypL0yd2x0qtc1dqkIK4g0)
 
 ## Credits
