@@ -196,7 +196,7 @@ div[class*='overlay'] h5 {
     width: 33%;
     margin-left: 16%;
     height: 40vh;
-    background-image: url(./HoriseonRefactor.jpg);
+    background-image: url(./RecipeChamp.png);
     background-size: cover;
     box-shadow: 5px 5px 10px black;
 
@@ -207,7 +207,7 @@ div[class*='overlay'] h5 {
     position: relative;
     width: 100%;
     margin-left: 3.25%;
-    background-image: url(../assets/Project2Holder.jpg);
+    background-image: url(./WorkDay.png);
     background-size: cover;
     margin-bottom: 10px;
     box-shadow: 5px 5px 10px black;
@@ -217,7 +217,7 @@ div[class*='overlay'] h5 {
 .project3 {
     position: relative;
     margin-left: 3.25%;
-    background-image: url(../assets/project3holder.jpg);
+    background-image: url(./weatherApp.png);
     background-position: cover;
     width: 100%;
     box-shadow: 5px 5px 10px black;
